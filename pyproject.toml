@@ -1,0 +1,32 @@
+[project]
+name = "intervention-search-response-prediction"
+version = "0.1.0"
+description = "Separate intervention search and held-out response prediction in closed-loop biological agents"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE-MIT", "LICENSE-CC-BY-4.0"]
+requires-python = ">=3.12"
+dependencies = ["matplotlib>=3.9,<4", "numpy>=2,<3", "openai>=2,<3"]
+
+[project.scripts]
+isrp = "intervention_search_response_prediction.cli:main"
+
+[project.optional-dependencies]
+measured = ["openpyxl>=3.1,<4"]
+
+[dependency-groups]
+dev = ["ruff>=0.16,<0.17"]
+
+[build-system]
+requires = ["uv_build>=0.12.12,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]
+
+[tool.ruff.lint.per-file-ignores]
+"src/intervention_search_response_prediction/measured/analysis.py" = ["E402"]

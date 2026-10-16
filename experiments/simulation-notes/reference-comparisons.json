@@ -1,0 +1,676 @@
+{
+  "task_counts": {
+    "named": 39,
+    "matched": 20
+  },
+  "classical": {
+    "all": {
+      "active-ridge": {
+        "brier_after": {
+          "mean": 0.20780291249558658,
+          "low": 0.19315051391433424,
+          "high": 0.2221755395437676
+        },
+        "discrimination_after": {
+          "mean": 0.024157952123534592,
+          "low": 0.020342422047764916,
+          "high": 0.028500537448369643
+        },
+        "goal_success": {
+          "mean": 0.6598290598290598,
+          "low": 0.6017094017094017,
+          "high": 0.717948717948718
+        },
+        "normalized_discrimination": {
+          "estimate": {
+            "mean": 0.08846562538947128,
+            "low": 0.07676133638805648,
+            "high": 0.1008413466746409
+          },
+          "defined_tasks": 228,
+          "total_tasks": 232
+        }
+      },
+      "graph-mean": {
+        "brier_after": {
+          "mean": 0.28293162393162397,
+          "low": 0.2593435897435898,
+          "high": 0.30590454059829064
+        },
+        "discrimination_after": {
+          "mean": -2.4871041835703376e-17,
+          "low": -3.336407005372931e-17,
+          "high": -1.66863162354432e-17
+        },
+        "goal_success": {
+          "mean": 0.6162393162393162,
+          "low": 0.5461538461538462,
+          "high": 0.6846367521367521
+        },
+        "normalized_discrimination": {
+          "estimate": {
+            "mean": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "defined_tasks": 228,
+          "total_tasks": 232
+        }
+      },
+      "graph-ridge": {
+        "brier_after": {
+          "mean": 0.22654045067826728,
+          "low": 0.20932709183259562,
+          "high": 0.2428159189072828
+        },
+        "discrimination_after": {
+          "mean": 0.02079077725060949,
+          "low": 0.017493313585336727,
+          "high": 0.02439869505682278
+        },
+        "goal_success": {
+          "mean": 0.5658119658119658,
+          "low": 0.4922863247863247,
+          "high": 0.6376282051282051
+        },
+        "normalized_discrimination": {
+          "estimate": {
+            "mean": 0.07540340695590751,
+            "low": 0.0654164330611284,
+            "high": 0.08601954883471911
+          },
+          "defined_tasks": 228,
+          "total_tasks": 232
+        }
+      },
+      "graph-ridge-observed": {
+        "brier_after": {
+          "mean": 0.22654045067826728,
+          "low": 0.20932709183259562,
+          "high": 0.2428159189072828
+        },
+        "discrimination_after": {
+          "mean": 0.02079077725060949,
+          "low": 0.017493313585336727,
+          "high": 0.02439869505682278
+        },
+        "goal_success": {
+          "mean": 0.6162393162393162,
+          "low": 0.5461538461538462,
+          "high": 0.6846367521367521
+        },
+        "normalized_discrimination": {
+          "estimate": {
+            "mean": 0.07540340695590751,
+            "low": 0.0654164330611284,
+            "high": 0.08601954883471911
+          },
+          "defined_tasks": 228,
+          "total_tasks": 232
+        }
+      },
+      "random-half": {
+        "brier_after": {
+          "mean": 0.25,
+          "low": 0.25,
+          "high": 0.25
+        },
+        "discrimination_after": {
+          "mean": 0.0,
+          "low": 0.0,
+          "high": 0.0
+        },
+        "goal_success": {
+          "mean": 0.547008547008547,
+          "low": 0.4923076923076923,
+          "high": 0.6034401709401709
+        },
+        "normalized_discrimination": {
+          "estimate": {
+            "mean": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "defined_tasks": 228,
+          "total_tasks": 232
+        }
+      },
+      "random-mean": {
+        "brier_after": {
+          "mean": 0.17449358974358975,
+          "low": 0.1592223824786325,
+          "high": 0.18904059829059827
+        },
+        "discrimination_after": {
+          "mean": -1.6513233088625377e-17,
+          "low": -2.5997889293639978e-17,
+          "high": -7.239097438777669e-18
+        },
+        "goal_success": {
+          "mean": 0.547008547008547,
+          "low": 0.4923076923076923,
+          "high": 0.6034401709401709
+        },
+        "normalized_discrimination": {
+          "estimate": {
+            "mean": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "defined_tasks": 228,
+          "total_tasks": 232
+        }
+      }
+    },
+    "named": {
+      "active-ridge": {
+        "brier_after": {
+          "mean": 0.2050318031185921,
+          "low": 0.17760103607742928,
+          "high": 0.23387124585929164
+        },
+        "discrimination_after": {
+          "mean": 0.02441431681853702,
+          "low": 0.01820746499013297,
+          "high": 0.031167892699067938
+        },
+        "goal_success": {
+          "mean": 0.6923076923076923,
+          "low": 0.5384615384615384,
+          "high": 0.8205128205128205
+        },
+        "normalized_discrimination": {
+          "estimate": {
+            "mean": 0.08363015692867698,
+            "low": 0.06290411159214278,
+            "high": 0.10653617619839931
+          },
+          "defined_tasks": 38,
+          "total_tasks": 39
+        }
+      },
+      "graph-mean": {
+        "brier_after": {
+          "mean": 0.281474358974359,
+          "low": 0.23179487179487182,
+          "high": 0.331286858974359
+        },
+        "discrimination_after": {
+          "mean": -2.675477361025768e-17,
+          "low": -3.843079700625542e-17,
+          "high": -1.5745951551174095e-17
+        },
+        "goal_success": {
+          "mean": 0.5897435897435898,
+          "low": 0.4358974358974359,
+          "high": 0.7435897435897436
+        },
+        "normalized_discrimination": {
+          "estimate": {
+            "mean": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "defined_tasks": 38,
+          "total_tasks": 39
+        }
+      },
+      "graph-ridge": {
+        "brier_after": {
+          "mean": 0.2248766080217471,
+          "low": 0.1901818305395474,
+          "high": 0.26001252697871535
+        },
+        "discrimination_after": {
+          "mean": 0.021464465746241446,
+          "low": 0.015948306671333012,
+          "high": 0.027050291488230842
+        },
+        "goal_success": {
+          "mean": 0.5384615384615384,
+          "low": 0.38461538461538464,
+          "high": 0.6923076923076923
+        },
+        "normalized_discrimination": {
+          "estimate": {
+            "mean": 0.07508958662656806,
+            "low": 0.055130176692772384,
+            "high": 0.09641475849750694
+          },
+          "defined_tasks": 38,
+          "total_tasks": 39
+        }
+      },
+      "graph-ridge-observed": {
+        "brier_after": {
+          "mean": 0.2248766080217471,
+          "low": 0.1901818305395474,
+          "high": 0.26001252697871535
+        },
+        "discrimination_after": {
+          "mean": 0.021464465746241446,
+          "low": 0.015948306671333012,
+          "high": 0.027050291488230842
+        },
+        "goal_success": {
+          "mean": 0.5897435897435898,
+          "low": 0.4358974358974359,
+          "high": 0.7435897435897436
+        },
+        "normalized_discrimination": {
+          "estimate": {
+            "mean": 0.07508958662656806,
+            "low": 0.055130176692772384,
+            "high": 0.09641475849750694
+          },
+          "defined_tasks": 38,
+          "total_tasks": 39
+        }
+      },
+      "random-half": {
+        "brier_after": {
+          "mean": 0.25,
+          "low": 0.25,
+          "high": 0.25
+        },
+        "discrimination_after": {
+          "mean": 0.0,
+          "low": 0.0,
+          "high": 0.0
+        },
+        "goal_success": {
+          "mean": 0.5641025641025641,
+          "low": 0.41025641025641024,
+          "high": 0.717948717948718
+        },
+        "normalized_discrimination": {
+          "estimate": {
+            "mean": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "defined_tasks": 38,
+          "total_tasks": 39
+        }
+      },
+      "random-mean": {
+        "brier_after": {
+          "mean": 0.1719871794871795,
+          "low": 0.1549342948717949,
+          "high": 0.18897435897435896
+        },
+        "discrimination_after": {
+          "mean": -9.407538850489608e-18,
+          "low": -2.5465963027785164e-17,
+          "high": 6.3606527452482924e-18
+        },
+        "goal_success": {
+          "mean": 0.5641025641025641,
+          "low": 0.41025641025641024,
+          "high": 0.717948717948718
+        },
+        "normalized_discrimination": {
+          "estimate": {
+            "mean": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "defined_tasks": 38,
+          "total_tasks": 39
+        }
+      }
+    },
+    "matched": {
+      "active-ridge": {
+        "brier_after": {
+          "mean": 0.20764034391777178,
+          "low": 0.17924995301365543,
+          "high": 0.23564046430313784
+        },
+        "discrimination_after": {
+          "mean": 0.029625201122761458,
+          "low": 0.021722410029953124,
+          "high": 0.03826875863189972
+        },
+        "goal_success": {
+          "mean": 0.6,
+          "low": 0.35,
+          "high": 0.8
+        },
+        "normalized_discrimination": {
+          "estimate": {
+            "mean": 0.09198351845089606,
+            "low": 0.07222398393385426,
+            "high": 0.11341315572915725
+          },
+          "defined_tasks": 20,
+          "total_tasks": 20
+        }
+      },
+      "graph-mean": {
+        "brier_after": {
+          "mean": 0.28075,
+          "low": 0.22625,
+          "high": 0.338003125
+        },
+        "discrimination_after": {
+          "mean": -2.0383000842727483e-17,
+          "low": -3.4781205693334983e-17,
+          "high": -6.5052130349130266e-18
+        },
+        "goal_success": {
+          "mean": 0.5,
+          "low": 0.3,
+          "high": 0.7
+        },
+        "normalized_discrimination": {
+          "estimate": {
+            "mean": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "defined_tasks": 20,
+          "total_tasks": 20
+        }
+      },
+      "graph-ridge": {
+        "brier_after": {
+          "mean": 0.22339678151505565,
+          "low": 0.18293401636337586,
+          "high": 0.2661806870111267
+        },
+        "discrimination_after": {
+          "mean": 0.027172690010102148,
+          "low": 0.019639600081366934,
+          "high": 0.03565688422412528
+        },
+        "goal_success": {
+          "mean": 0.45,
+          "low": 0.25,
+          "high": 0.65
+        },
+        "normalized_discrimination": {
+          "estimate": {
+            "mean": 0.08245854613364327,
+            "low": 0.06449949684253141,
+            "high": 0.10093418081525435
+          },
+          "defined_tasks": 20,
+          "total_tasks": 20
+        }
+      },
+      "graph-ridge-observed": {
+        "brier_after": {
+          "mean": 0.22339678151505565,
+          "low": 0.18293401636337586,
+          "high": 0.2661806870111267
+        },
+        "discrimination_after": {
+          "mean": 0.027172690010102148,
+          "low": 0.019639600081366934,
+          "high": 0.03565688422412528
+        },
+        "goal_success": {
+          "mean": 0.5,
+          "low": 0.3,
+          "high": 0.7
+        },
+        "normalized_discrimination": {
+          "estimate": {
+            "mean": 0.08245854613364327,
+            "low": 0.06449949684253141,
+            "high": 0.10093418081525435
+          },
+          "defined_tasks": 20,
+          "total_tasks": 20
+        }
+      },
+      "random-half": {
+        "brier_after": {
+          "mean": 0.25,
+          "low": 0.25,
+          "high": 0.25
+        },
+        "discrimination_after": {
+          "mean": 0.0,
+          "low": 0.0,
+          "high": 0.0
+        },
+        "goal_success": {
+          "mean": 0.6,
+          "low": 0.4,
+          "high": 0.8
+        },
+        "normalized_discrimination": {
+          "estimate": {
+            "mean": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "defined_tasks": 20,
+          "total_tasks": 20
+        }
+      },
+      "random-mean": {
+        "brier_after": {
+          "mean": 0.191625,
+          "low": 0.170871875,
+          "high": 0.21050312499999999
+        },
+        "discrimination_after": {
+          "mean": -1.8214596497756475e-18,
+          "low": -2.628539746973857e-17,
+          "high": 2.2206628896848092e-17
+        },
+        "goal_success": {
+          "mean": 0.6,
+          "low": 0.4,
+          "high": 0.8
+        },
+        "normalized_discrimination": {
+          "estimate": {
+            "mean": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          "defined_tasks": 20,
+          "total_tasks": 20
+        }
+      }
+    }
+  },
+  "language": {
+    "named": {
+      "history": {
+        "normalized_discrimination": {
+          "estimate": {
+            "mean": 0.3759065268035247,
+            "low": 0.27916434628820597,
+            "high": 0.4735938212707776
+          },
+          "defined_tasks": 38,
+          "total_tasks": 39
+        }
+      },
+      "predictive": {
+        "normalized_discrimination": {
+          "estimate": {
+            "mean": 0.4769510134883468,
+            "low": 0.39766892396856607,
+            "high": 0.5545574424401961
+          },
+          "defined_tasks": 38,
+          "total_tasks": 39
+        }
+      }
+    },
+    "matched": {
+      "history": {
+        "normalized_discrimination": {
+          "estimate": {
+            "mean": 0.36152512273624043,
+            "low": 0.23386918454843542,
+            "high": 0.5004151800644402
+          },
+          "defined_tasks": 20,
+          "total_tasks": 20
+        }
+      },
+      "predictive": {
+        "normalized_discrimination": {
+          "estimate": {
+            "mean": 0.4802115206657658,
+            "low": 0.3709143082593938,
+            "high": 0.5860109917805619
+          },
+          "defined_tasks": 20,
+          "total_tasks": 20
+        }
+      }
+    },
+    "anonymous": {
+      "history": {
+        "normalized_discrimination": {
+          "estimate": {
+            "mean": 0.27346040823430257,
+            "low": 0.20918106952541546,
+            "high": 0.3427266340407296
+          },
+          "defined_tasks": 20,
+          "total_tasks": 20
+        }
+      },
+      "predictive": {
+        "normalized_discrimination": {
+          "estimate": {
+            "mean": 0.3295181943408108,
+            "low": 0.24304729199950406,
+            "high": 0.4250661644772121
+          },
+          "defined_tasks": 20,
+          "total_tasks": 20
+        }
+      }
+    },
+    "posthoc": {
+      "normalized_discrimination": {
+        "estimate": {
+          "mean": 0.4229375591457159,
+          "low": 0.34694996559033775,
+          "high": 0.5003025823807187
+        },
+        "defined_tasks": 38,
+        "total_tasks": 39
+      }
+    }
+  },
+  "association": {
+    "active-ridge": {
+      "mean": 0.21153465115641842,
+      "low": 0.08540685072683475,
+      "high": 0.3336801984862181,
+      "valid_draws": 2000,
+      "episodes": 232
+    },
+    "graph-mean": null,
+    "graph-ridge": {
+      "mean": 0.07295772429718561,
+      "low": -0.07071922700121284,
+      "high": 0.2156442388681638,
+      "valid_draws": 2000,
+      "episodes": 232
+    },
+    "graph-ridge-observed": {
+      "mean": 0.040437052386019884,
+      "low": -0.10920959160483641,
+      "high": 0.18519396757845247,
+      "valid_draws": 2000,
+      "episodes": 232
+    },
+    "random-half": null,
+    "random-mean": null,
+    "classical_variable_mean": {
+      "mean": 0.10830980927987464,
+      "low": -0.010193196844503028,
+      "high": 0.22661033522998153,
+      "valid_draws": 2000,
+      "conditions": [
+        "active-ridge",
+        "graph-ridge",
+        "graph-ridge-observed"
+      ]
+    },
+    "named_history": {
+      "mean": -0.13533573055134726,
+      "low": -0.4362036117493954,
+      "high": 0.1984629122066338,
+      "valid_draws": 2000,
+      "episodes": 39
+    },
+    "named_predictive": {
+      "mean": -0.09653027381141996,
+      "low": -0.43593828114929756,
+      "high": 0.2558569142173792,
+      "valid_draws": 2000,
+      "episodes": 39
+    },
+    "named_condition_mean": {
+      "mean": -0.11593300218138361,
+      "low": -0.37957332882730793,
+      "high": 0.15887314852515547,
+      "valid_draws": 2000,
+      "conditions": [
+        "history",
+        "predictive"
+      ]
+    },
+    "named_pooled_78": {
+      "mean": -0.08867021360942076,
+      "low": -0.3507663922794472,
+      "high": 0.1766239027717872,
+      "valid_draws": 2000,
+      "episodes": 78
+    }
+  },
+  "language_minus_active_ridge": {
+    "history": {
+      "brier_after": {
+        "mean": -0.030803662092951045,
+        "low": -0.07110699247215908,
+        "high": 0.01080258128591351
+      },
+      "discrimination_after": {
+        "mean": 0.08346517036095015,
+        "low": 0.054028804572069676,
+        "high": 0.11254902155599177
+      },
+      "goal_success": {
+        "mean": -0.02564102564102564,
+        "low": -0.20512820512820512,
+        "high": 0.1794871794871795
+      }
+    },
+    "predictive": {
+      "brier_after": {
+        "mean": -0.0649998159391049,
+        "low": -0.11100939510655719,
+        "high": -0.013057668247287893
+      },
+      "discrimination_after": {
+        "mean": 0.11537029856607835,
+        "low": 0.08762300704591343,
+        "high": 0.14222876103469087
+      },
+      "goal_success": {
+        "mean": 0.05128205128205128,
+        "low": -0.1282051282051282,
+        "high": 0.23076923076923078
+      }
+    }
+  },
+  "label_prompt_interaction": {
+    "mean": -0.027220000000000022,
+    "low": -0.07643206250000002,
+    "high": 0.022824812499999934
+  }
+}

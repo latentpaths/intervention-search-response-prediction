@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying NeurIPS 2026 AgenticLS workshop paper when using this code or evaluation protocol."
+type: software
+title: "Separating Intervention Search from Response Prediction in Closed-Loop Biological Agents"
+authors:
+  - family-names: Bodade
+    given-names: Ayush
+    affiliation: Independent Researcher
+    email: ayush@latentpaths.com
+version: 0.1.0
+license: MIT
+repository-code: "https://github.com/stochi0/intervention-search-response-prediction"
+url: "https://latentpaths.com/projects/intervention-search-response-prediction"
+preferred-citation:
+  type: conference-paper
+  license: CC-BY-4.0
+  authors:
+    - family-names: Bodade
+      given-names: Ayush
+      affiliation: Independent Researcher
+      email: ayush@latentpaths.com
+  title: "Separating Intervention Search from Response Prediction in Closed-Loop Biological Agents"
+  year: 2026
+  collection-title: "Agentic AI for Biological Discovery (AgenticLS), NeurIPS 2026 Workshop"
+  notes: "Accepted spotlight; non-archival workshop paper."
+  url: "https://latentpaths.com/projects/intervention-search-response-prediction"

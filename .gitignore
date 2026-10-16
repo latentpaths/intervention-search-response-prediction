@@ -1,0 +1,22 @@
+.notion-id
+.DS_Store
+.env
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+/data/*/raw/
+*.log
+*.aux
+*.bbl
+*.blg
+*.out
+*.synctex.gz
+
+# Local manuscript source, author tools, and generated research outputs
+paper/
+/outputs/
