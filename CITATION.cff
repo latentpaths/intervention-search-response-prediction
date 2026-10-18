@@ -9,7 +9,7 @@ authors:
     email: ayush@latentpaths.com
 version: 0.1.0
 license: MIT
-repository-code: "https://github.com/stochi0/intervention-search-response-prediction"
+repository-code: "https://github.com/latentpaths/intervention-search-response-prediction"
 url: "https://latentpaths.com/projects/intervention-search-response-prediction"
 preferred-citation:
   type: conference-paper

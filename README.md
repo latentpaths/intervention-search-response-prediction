@@ -56,7 +56,7 @@ general benefit from hypothesis notes. The [paper](paper.pdf) and
 Use Python 3.12 and [uv](https://docs.astral.sh/uv/):
 
 ```sh
-git clone https://github.com/stochi0/intervention-search-response-prediction.git
+git clone https://github.com/latentpaths/intervention-search-response-prediction.git
 cd intervention-search-response-prediction
 uv sync --locked
 uv run --locked isrp validate
@@ -131,7 +131,6 @@ preprocessing upstream data is a separate optional step, documented under
 | [checksums.json](checksums.json) | SHA-256 catalogue of retained inputs and study records |
 | [src/intervention_search_response_prediction/](src/intervention_search_response_prediction/) | Simulation, measured replay, statistics, integrity checks, and CLI |
 | [tests/](tests/) | Scientific behavior, evidence integrity, and command checks |
-| [.github/workflows/checks.yml](.github/workflows/checks.yml) | Offline CI checks and reproduction |
 | [LICENSE-MIT](LICENSE-MIT) · [LICENSE-CC-BY-4.0](LICENSE-CC-BY-4.0) | MIT software license and CC BY 4.0 research-content terms |
 | `outputs/` | Ignored regenerated results and fresh runs |
 
@@ -144,8 +143,8 @@ uv run --locked ruff check src tests
 uv run --locked ruff format --check src tests
 ```
 
-CI also runs offline reproduction. Scientific objects and CLI help work without
-a checkout; evidence-reading commands locate one when needed.
+Scientific objects and CLI help work without a checkout; evidence-reading
+commands locate one when needed.
 
 ## Citation
 
