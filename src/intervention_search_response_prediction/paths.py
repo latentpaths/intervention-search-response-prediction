@@ -89,7 +89,7 @@ class Layout:
 
     @property
     def checksums(self) -> Path:
-        return self.root / "checksums.json"
+        return self.root / "experiments" / "checksums.json"
 
 
 def repository_root(path: Path | None = None) -> Path:
@@ -122,7 +122,7 @@ def writable_output(path: Path, root: Path | None = None) -> Path:
             "paper.pdf",
             "paper",
             "experiments",
-            "checksums.json",
+            "docs",
             "pyproject.toml",
             "data",
             "src",

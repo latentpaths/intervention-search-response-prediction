@@ -89,7 +89,7 @@ uv run --locked python -m intervention_search_response_prediction.measured.audit
 
 ## File integrity and scientific validation
 
-`checksums.json` catalogues 62 public files: source models and notices, compact
+`experiments/checksums.json` catalogues 62 public files: source models and notices, compact
 measured inputs, recorded experiments, frozen summaries, and the measured protocol.
 Validation rejects missing files and checksum mismatches before either scientific
 audit runs. Its report separates public file integrity from the simulation and

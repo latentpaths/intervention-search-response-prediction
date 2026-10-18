@@ -74,7 +74,7 @@ uv run --locked isrp validate
 uv run --locked isrp reproduce
 ```
 
-Validation checks the [checksum catalogue](../checksums.json) before scientific
+Validation checks the [checksum catalogue](checksums.json) before scientific
 audits. Reproduction checks numerical equality against the five frozen summaries
 and writes summaries and eight figures to `outputs/reproduction/`. Neither command
 makes inference calls.

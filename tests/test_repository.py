@@ -78,7 +78,8 @@ with patch('intervention_search_response_prediction.paths.repository_root',
             sample.parent.mkdir(parents=True)
             sample.write_text("{}")
             manifest = {"experiments/sample.json": sha256(sample)}
-            (root / "checksums.json").write_text(json.dumps(manifest))
+            (root / "experiments").mkdir(exist_ok=True)
+            (root / "experiments/checksums.json").write_text(json.dumps(manifest))
             sample.write_text('{"changed":true}')
             from intervention_search_response_prediction.reproduction import validate
 
@@ -96,7 +97,10 @@ with patch('intervention_search_response_prediction.paths.repository_root',
     def test_missing_public_evidence_is_rejected(self):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)
-            (root / "checksums.json").write_text(json.dumps({"data/missing.json": "absent"}))
+            (root / "experiments").mkdir(exist_ok=True)
+            (root / "experiments/checksums.json").write_text(
+                json.dumps({"data/missing.json": "absent"})
+            )
             with self.assertRaisesRegex(ValueError, "Retained evidence checksum mismatch"):
                 verify_evidence(root)
 
@@ -115,7 +119,8 @@ with patch('intervention_search_response_prediction.paths.__file__', str(Path.cw
 """
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)
-            (root / "checksums.json").write_text("{}")
+            (root / "experiments").mkdir(exist_ok=True)
+            (root / "experiments/checksums.json").write_text("{}")
             (root / "pyproject.toml").write_text('[project]\nname = "unrelated"\n')
             environment = {key: value for key, value in os.environ.items() if key != "ISRP_ROOT"}
             subprocess.run([sys.executable, "-c", script], cwd=root, env=environment, check=True)
@@ -127,10 +132,11 @@ with patch('intervention_search_response_prediction.paths.__file__', str(Path.cw
             ROOT / "experiments/simulation-notes/new",
             ROOT / "src",
             ROOT / "data",
-            ROOT / "checksums.json",
+            ROOT / "experiments/checksums.json",
             ROOT / "pyproject.toml",
             ROOT / "paper.pdf",
             ROOT / "paper/figures",
+            ROOT / "docs",
         ):
             with self.subTest(path=path), self.assertRaises(ValueError):
                 writable_output(path)
@@ -188,7 +194,8 @@ with patch('intervention_search_response_prediction.paths.__file__', str(Path.cw
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)
             shutil.copy2(ROOT / "pyproject.toml", root / "pyproject.toml")
-            (root / "checksums.json").write_text("{}")
+            (root / "experiments").mkdir(exist_ok=True)
+            (root / "experiments/checksums.json").write_text("{}")
             environment = {key: value for key, value in os.environ.items() if key != "ISRP_ROOT"}
             result = subprocess.run(
                 [
@@ -269,7 +276,7 @@ with patch('intervention_search_response_prediction.paths.__file__', str(Path.cw
     def test_offline_validation_never_changes_evidence_or_calls_provider(self):
         from intervention_search_response_prediction.reproduction import validate
 
-        manifest = json.loads((ROOT / "checksums.json").read_text())
+        manifest = json.loads((ROOT / "experiments/checksums.json").read_text())
         paper_hash = sha256(ROOT / "paper.pdf")
         original_open = Path.open
 

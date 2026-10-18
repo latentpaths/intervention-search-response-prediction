@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "Separate intervention search and held-out response prediction in closed-loop biological agents"
 readme = "README.md"
 license = "MIT"
-license-files = ["LICENSE-MIT", "LICENSE-CC-BY-4.0"]
+license-files = ["LICENSE", "docs/LICENSE-CC-BY-4.0"]
 requires-python = ">=3.12"
 dependencies = ["matplotlib>=3.9,<4", "numpy>=2,<3", "openai>=2,<3"]
 
