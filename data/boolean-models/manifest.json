@@ -1,0 +1,210 @@
+{
+  "source_repository": "https://github.com/kyuhyongpark/boolmore",
+  "source_commit": "a757a6d13c9302f3b8dcdc20db85ab90681f42f8",
+  "source_directory": "Benchmarks/models",
+  "selection": {
+    "source_model_count": 74,
+    "models_at_most_30_nodes": 40,
+    "included_node_range": [9, 30],
+    "excluded_within_30_nodes": [
+      {"file": "Cortical Area Development.bnet", "nodes": 5, "reason": "below the 9-node lower bound"}
+    ]
+  },
+  "models": [
+    {
+      "file": "Arabidopsis thaliana Cell Cycle.bnet",
+      "nodes": 14,
+      "sha256": "a011a3fd9930a2426d368139ad8fb69ece74c48a5e955202f9158253613e7428"
+    },
+    {
+      "file": "Aurora Kinase A in Neuroblastoma.bnet",
+      "nodes": 23,
+      "sha256": "ae7fada96ae55f02d171399cd9b600597a721486fc260513bca3b995ad73ae82"
+    },
+    {
+      "file": "B cell differentiation.bnet",
+      "nodes": 22,
+      "sha256": "499a53d6d1f32edc977bbdb89fb252acf389121e0edca22152d76881174e00ba"
+    },
+    {
+      "file": "BT474 Breast Cell Line Long-term ErbB Network.bnet",
+      "nodes": 24,
+      "sha256": "42151d031962df6c54c3cf3fb0c81a8f6a7174e73e8a6ef770f3d125f0f0f3b6"
+    },
+    {
+      "file": "BT474 Breast Cell Line Short-term ErbB Network.bnet",
+      "nodes": 16,
+      "sha256": "4871e6abc26e590d226bdd53f2dbaee23487aa1a9eb02dbd0ef1086603ebb662"
+    },
+    {
+      "file": "Budding Yeast Cell Cycle 2009.bnet",
+      "nodes": 18,
+      "sha256": "962e0707a7e03f6c42418fedcd2ee7b3d3e23dc5005a4221ffbf4673beb9f127"
+    },
+    {
+      "file": "Budding Yeast Cell Cycle.bnet",
+      "nodes": 20,
+      "sha256": "61c8a6d367824d938196e3ce7cdeac124293ebdce708c59a80db3c394975de6b"
+    },
+    {
+      "file": "CD4+ T Cell Differentiation and Plasticity.bnet",
+      "nodes": 18,
+      "sha256": "8907d32d20b6218f238e983b2d84430071acf36391ad52a2b50a52992ec950ec"
+    },
+    {
+      "file": "Cardiac development.bnet",
+      "nodes": 15,
+      "sha256": "7ae9207c2aebb1193325dc6258fdfd7264c577ea4f0454ed0a37e112eb87c462"
+    },
+    {
+      "file": "Cell Cycle Transcription by Coupled CDK and Network Oscillators.bnet",
+      "nodes": 9,
+      "sha256": "3762be7be3586ebe61cf2bc1c44eef8b539cefa283a1ab93aa38a5d8e4a8dd7f"
+    },
+    {
+      "file": "Death Receptor Signaling.bnet",
+      "nodes": 28,
+      "sha256": "aed66a4d22978b40292bb5b1fdc78cf7d4792be1f645d970c19f211911c276af"
+    },
+    {
+      "file": "FA BRCA pathway.bnet",
+      "nodes": 28,
+      "sha256": "c9943602777e3d189d59cdf5e80843495b5d83516449a38f6fb2f0b7d32812af"
+    },
+    {
+      "file": "FGF pathway of Drosophila Signalling Pathways.bnet",
+      "nodes": 22,
+      "sha256": "b1a1dd0dc1be76ca0f8548a306a8afa916837eee0964d7a10ac5d88cce6a12da"
+    },
+    {
+      "file": "Fanconi anemia and checkpoint recovery.bnet",
+      "nodes": 15,
+      "sha256": "a278bc51ecaff21fe32b9e9aa2003639064a7b025eaf9a21c7f3176daa314018"
+    },
+    {
+      "file": "HCC1954 Breast Cell Line Long-term ErbB Network.bnet",
+      "nodes": 23,
+      "sha256": "20579951d12fb8c89ea51334e1e4d72325b8a06380ca86546e72d8869b68d0f4"
+    },
+    {
+      "file": "HCC1954 Breast Cell Line Short-term ErbB Network.bnet",
+      "nodes": 16,
+      "sha256": "1f49996dec320ed58e67723e130c5d6b925e56ec245e3a6ace9d64e657953890"
+    },
+    {
+      "file": "HH Pathway of Drosophila Signaling Pathways.bnet",
+      "nodes": 23,
+      "sha256": "32cb8e28f064f8e66efe590b831280c88ce4955a8131864e7ca72d92d8882604"
+    },
+    {
+      "file": "Human Gonadal Sex Determination.bnet",
+      "nodes": 19,
+      "sha256": "2a3229717497ba2f92739a11d18931751cb8bd3c13e0857721d6c96f2501141e"
+    },
+    {
+      "file": "Iron acquisition and oxidative stress response in aspergillus fumigatus.bnet",
+      "nodes": 22,
+      "sha256": "c7f733210ee60922d920965dc3c79a4e7079952b22e22b7b147a9f6591536ade"
+    },
+    {
+      "file": "Lac Operon.bnet",
+      "nodes": 13,
+      "sha256": "595d24ccfbcb9372aec0a614ebee49b0eb5d1c7947c39ddf956fc6ca30b127a8"
+    },
+    {
+      "file": "Mammalian Cell Cycle 2006.bnet",
+      "nodes": 10,
+      "sha256": "fe9c88ef9db63ea9aeb0d4a1a29a838075afca1e93cf35016f17c8aa7e0c2176"
+    },
+    {
+      "file": "Mammalian Cell Cycle.bnet",
+      "nodes": 20,
+      "sha256": "3fd3771bff6afba7634ded455faa0aeaaff904a2cf52af703960168068c185b7"
+    },
+    {
+      "file": "Metabolic Interactions in the Gut Microbiome.bnet",
+      "nodes": 12,
+      "sha256": "cbbc8925d8de385889232b8e6f01695cf0417f3b28f34ff67167c6298e402047"
+    },
+    {
+      "file": "Neurotransmitter Signaling Pathway.bnet",
+      "nodes": 16,
+      "sha256": "3fa2d483cee3201553680e9fb8ef91c02136015172d81d9ad1d2cdf4d4b2a59a"
+    },
+    {
+      "file": "Oxidative Stress Pathway.bnet",
+      "nodes": 19,
+      "sha256": "6c572932550fca8c5e24caf0935a5130807415aa832491b1d67894b9908b8f14"
+    },
+    {
+      "file": "Predicting Variabilities in Cardiac Gene.bnet",
+      "nodes": 15,
+      "sha256": "65b1fdc91242dbd64f596df2ec4374c764f9abec4477942575b8d0d6622e899e"
+    },
+    {
+      "file": "Pro-inflammatory Tumor Microenvironment in Acute Lymphoblastic Leukemia.bnet",
+      "nodes": 26,
+      "sha256": "088909b154214d515252b683b64333ae85312207c70fbf039b4d9686ebe93bab"
+    },
+    {
+      "file": "Processing of Spz Network from the Drosophila Signaling Pathway.bnet",
+      "nodes": 24,
+      "sha256": "b7643d543de5379f519e7248a890e136628f0f0058f09b3a99827bd9c1770de2"
+    },
+    {
+      "file": "Regulation of the L-arabinose operon of Escherichia coli.bnet",
+      "nodes": 13,
+      "sha256": "a67e8f675ab262190423810dae0f6a9bfc44a3eae48f265fcbf20aa98709e6f4"
+    },
+    {
+      "file": "SKBR3 Breast Cell Line Long-term ErbB Network.bnet",
+      "nodes": 25,
+      "sha256": "42a4e5339b331daaca289d042f973fd023b1fec7b12dcfe2d03d3b280b17ab98"
+    },
+    {
+      "file": "SKBR3 Breast Cell Line Short-term ErbB Network.bnet",
+      "nodes": 16,
+      "sha256": "01ce3efd4222a0597d8708c46cb380d5351e21cfb9d378518399b1a08aa88f63"
+    },
+    {
+      "file": "Septation Initiation Network.bnet",
+      "nodes": 30,
+      "sha256": "f05cbb4b2a258f337a96a93864fd13045a0948814d72934eeb842cf2f3c1fb01"
+    },
+    {
+      "file": "T cell differentiation.bnet",
+      "nodes": 23,
+      "sha256": "9a86707d745e89a386a10d32e4355b017f0bdb42a5a6b0d4e8c6bd495b2e4dbb"
+    },
+    {
+      "file": "T-LGL Survival Network 2011 Reduced Network.bnet",
+      "nodes": 18,
+      "sha256": "52491896b1899d10e2d910fb7624a25e490dabce796f347754d5af7a999bb9e3"
+    },
+    {
+      "file": "TOL Regulatory Network.bnet",
+      "nodes": 24,
+      "sha256": "67ddfcf9ee0fe62cdc7e6d35083d4e9efa18a2e26dc2582e0b5cba8b83f35b26"
+    },
+    {
+      "file": "Toll Pathway of Drosophila Signaling Pathway.bnet",
+      "nodes": 10,
+      "sha256": "ae1a17a392e70b8c741539e9be40c56b6ac06f26a472934a03a4a8d588a829c2"
+    },
+    {
+      "file": "Trichostrongylus retortaeformis.bnet",
+      "nodes": 26,
+      "sha256": "85a2c2400aaef089af60e81c25d8e4904db33071540500d2a2fd8b6989cf788f"
+    },
+    {
+      "file": "VEGF Pathway of Drosophila Signaling Pathway.bnet",
+      "nodes": 17,
+      "sha256": "9a9ad852d1fae0d8c9e70e5a8ecb08f626c3c1795f5ab9189f5aba347f5e7b6d"
+    },
+    {
+      "file": "Wg Pathway of Drosophila Signalling Pathways.bnet",
+      "nodes": 25,
+      "sha256": "0ec9174cc01ae76d52dca0b359a6c95ba67de356bdf9c7bf31faa063df68e53e"
+    }
+  ]
+}

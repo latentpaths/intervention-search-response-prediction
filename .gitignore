@@ -1,0 +1,40 @@
+# Local state and credentials
+.notion-id
+.DS_Store
+.env
+.env.*
+!.env.example
+.envrc
+.pypirc
+.streamlit/secrets.toml
+.venv/
+venv/
+.cursor/
+.opencode/
+
+# Python caches, checks, and packages
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.cache/
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+*.egg-info/
+build/
+dist/
+.ipynb_checkpoints/
+
+# Source downloads and author-local manuscript work
+/data/*/raw/
+/paper/
+/outputs/
+*.log
+*.aux
+*.bbl
+*.blg
+*.out
+*.synctex.gz

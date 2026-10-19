@@ -1,0 +1,126 @@
+{
+  "classical": {
+    "random-half": {
+      "discrimination_unclamped": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "direct_clamp_fraction": {
+        "mean": 0.06412393162393162,
+        "low": 0.05707211538461538,
+        "high": 0.07170993589743588
+      }
+    },
+    "random-mean": {
+      "discrimination_unclamped": {
+        "mean": -6.864760422027878e-18,
+        "low": -1.1950762079842613e-17,
+        "high": -1.8365828800790455e-18
+      },
+      "direct_clamp_fraction": {
+        "mean": 0.06412393162393162,
+        "low": 0.05707211538461538,
+        "high": 0.07170993589743588
+      }
+    },
+    "graph-mean": {
+      "discrimination_unclamped": {
+        "mean": -4.744542840278446e-19,
+        "low": -5.4446594431470354e-18,
+        "high": 4.7002851515964725e-18
+      },
+      "direct_clamp_fraction": {
+        "mean": 0.06412393162393162,
+        "low": 0.05707211538461538,
+        "high": 0.07170993589743588
+      }
+    },
+    "graph-ridge-observed": {
+      "discrimination_unclamped": {
+        "mean": 0.017617281690756565,
+        "low": 0.014304839572564476,
+        "high": 0.021020886495384843
+      },
+      "direct_clamp_fraction": {
+        "mean": 0.06412393162393162,
+        "low": 0.05707211538461538,
+        "high": 0.07170993589743588
+      }
+    },
+    "graph-ridge": {
+      "discrimination_unclamped": {
+        "mean": 0.017617281690756565,
+        "low": 0.014304839572564476,
+        "high": 0.021020886495384843
+      },
+      "direct_clamp_fraction": {
+        "mean": 0.06412393162393162,
+        "low": 0.05707211538461538,
+        "high": 0.07170993589743588
+      }
+    },
+    "active-ridge": {
+      "discrimination_unclamped": {
+        "mean": 0.019648833040174066,
+        "low": 0.016102645756302793,
+        "high": 0.02353946918616368
+      },
+      "direct_clamp_fraction": {
+        "mean": 0.06412393162393162,
+        "low": 0.05707211538461538,
+        "high": 0.07170993589743588
+      }
+    }
+  },
+  "language": {
+    "named/history": {
+      "discrimination_unclamped": {
+        "mean": 0.08959249752488839,
+        "low": 0.060116657135670014,
+        "high": 0.11938604726998824
+      },
+      "direct_clamp_fraction": {
+        "mean": 0.05705128205128206,
+        "low": 0.046153846153846156,
+        "high": 0.0679647435897435
+      }
+    },
+    "named/predictive": {
+      "discrimination_unclamped": {
+        "mean": 0.11656858954170463,
+        "low": 0.08913201118110468,
+        "high": 0.14352424120770105
+      },
+      "direct_clamp_fraction": {
+        "mean": 0.05705128205128206,
+        "low": 0.046153846153846156,
+        "high": 0.0679647435897435
+      }
+    },
+    "anonymous/history": {
+      "discrimination_unclamped": {
+        "mean": 0.07651326644778282,
+        "low": 0.04841420878507656,
+        "high": 0.10487006194491683
+      },
+      "direct_clamp_fraction": {
+        "mean": 0.05500000000000001,
+        "low": 0.04125,
+        "high": 0.06999999999999999
+      }
+    },
+    "anonymous/predictive": {
+      "discrimination_unclamped": {
+        "mean": 0.0911931312988158,
+        "low": 0.060462909693680685,
+        "high": 0.12587542711187474
+      },
+      "direct_clamp_fraction": {
+        "mean": 0.05500000000000001,
+        "low": 0.04125,
+        "high": 0.06999999999999999
+      }
+    }
+  }
+}
