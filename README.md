@@ -1,5 +1,5 @@
 <p>
-  <a href="https://www.latentpaths.com/"><img src="https://raw.githubusercontent.com/latentpaths/.github/main/assets/latent-paths-wordmark.png" alt="Latent Paths" width="280"></a>
+  <a href="https://www.latentpaths.com/"><img src="https://raw.githubusercontent.com/latentpaths/.github/main/assets/latent-paths-wordmark-cream.png" alt="Latent Paths" width="280"></a>
 </p>
 
 # Intervention search and response prediction
