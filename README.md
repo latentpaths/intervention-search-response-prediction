@@ -1,3 +1,7 @@
+<p>
+  <a href="https://www.latentpaths.com/"><img src="https://raw.githubusercontent.com/latentpaths/.github/main/assets/latent-paths-wordmark.png" alt="Latent Paths" width="280"></a>
+</p>
+
 # Intervention search and response prediction
 
 Can an agent find a successful intervention without learning to predict untried
