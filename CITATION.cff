@@ -1,0 +1,29 @@
+{
+  "cff-version": "1.2.0",
+  "message": "Please cite the preferred paper for the research, and this software when referring to the implementation. Specify the commit used.",
+  "type": "software",
+  "title": "Intervention Search & Response Prediction",
+  "authors": [
+    {
+      "family-names": "Bodade",
+      "given-names": "Ayush"
+    }
+  ],
+  "repository-code": "https://github.com/latentpaths/intervention-search-response-prediction",
+  "url": "https://github.com/latentpaths/intervention-search-response-prediction",
+  "preferred-citation": {
+    "type": "conference-paper",
+    "title": "Separating Intervention Search from Response Prediction in Closed-Loop Biological Agents",
+    "authors": [
+      {
+        "family-names": "Bodade",
+        "given-names": "Ayush"
+      }
+    ],
+    "url": "https://openreview.net/forum?id=iHkXEsYah3",
+    "date-released": "2026-09-30",
+    "year": 2026,
+    "collection-title": "Agentic AI for Biological Discovery (AgenticLS), NeurIPS 2026 workshop",
+    "notes": "Accepted spotlight; Non-archival workshop paper"
+  }
+}
