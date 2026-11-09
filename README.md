@@ -214,7 +214,7 @@ Public reproduction does not require manuscript sources or LaTeX. The root
   year         = {2026},
   howpublished = {Agentic AI for Biological Discovery (AgenticLS), NeurIPS 2026 Workshop},
   note         = {Accepted spotlight; non-archival workshop paper},
-  url          = {https://latentpaths.com/projects/intervention-search-response-prediction}
+  url          = {https://openreview.net/forum?id=iHkXEsYah3}
 }
 ```
 
