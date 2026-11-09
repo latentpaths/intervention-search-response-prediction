@@ -9,7 +9,7 @@ interventions? Under an eight-assay budget, these experiments separate search
 success from held-out response prediction. Controlled Boolean-network comparisons
 show that improving one outcome can leave the other unchanged or make it worse.
 
-[Paper](paper.pdf) · [Project](https://latentpaths.com/projects/intervention-search-response-prediction) · [OpenReview](https://openreview.net/forum?id=iHkXEsYah3) · [Experiments and evidence](experiments/README.md)
+[Paper](paper.pdf) · [Experiments and evidence](experiments/README.md)
 
 *Separating Intervention Search from Response Prediction in Closed-Loop Biological
 Agents* — Ayush Bodade. Accepted spotlight, AgenticLS workshop at NeurIPS 2026.
