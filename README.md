@@ -207,16 +207,42 @@ Public reproduction does not require manuscript sources or LaTeX. The root
 
 ## Citation
 
+<!-- BEGIN generated citations -->
+
+Citation metadata matches the [ORCID record](https://orcid.org/0009-0007-2252-8905). [Complete bibliography](https://www.latentpaths.com/citations/all.bib).
+
+### Paper
+
 ```bibtex
-@misc{bodade2026intervention,
-  author       = {Ayush Bodade},
-  title        = {Separating Intervention Search from Response Prediction in Closed-Loop Biological Agents},
-  year         = {2026},
-  howpublished = {Agentic AI for Biological Discovery (AgenticLS), NeurIPS 2026 Workshop},
-  note         = {Accepted spotlight; non-archival workshop paper},
-  url          = {https://openreview.net/forum?id=iHkXEsYah3}
+@inproceedings{bodadepaperbodade2026intervention,
+  author = {Bodade, Ayush},
+  title = {{Separating Intervention Search from Response Prediction in Closed-Loop Biological Agents}},
+  year = {2026},
+  month = {09},
+  day = {30},
+  date = {2026-09-30},
+  booktitle = {Agentic AI for Biological Discovery (AgenticLS), NeurIPS 2026 workshop},
+  url = {https://openreview.net/forum?id=iHkXEsYah3},
+  note = {Accepted spotlight; Non-archival workshop paper}
 }
 ```
+
+[Citation file](https://www.latentpaths.com/citations/paper/bodade2026intervention.bib) · [Work](https://openreview.net/forum?id=iHkXEsYah3)
+
+### Software
+
+```bibtex
+@software{bodadeprojectinterventionsearchresponseprediction,
+  author = {Bodade, Ayush},
+  title = {{Intervention Search \& Response Prediction}},
+  url = {https://github.com/latentpaths/intervention-search-response-prediction},
+  note = {Research software. Specify the commit or version used.}
+}
+```
+
+[Citation file](https://www.latentpaths.com/citations/project/intervention-search-response-prediction.bib) · [Work](https://github.com/latentpaths/intervention-search-response-prediction)
+
+<!-- END generated citations -->
 
 Cite the original biological data sources when using their measurements; see the
 [data notice](data/README.md). Prime Intellect provided inference credits.
