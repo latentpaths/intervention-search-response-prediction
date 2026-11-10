@@ -198,18 +198,9 @@ uv run --locked ruff check src tests
 uv run --locked ruff format --check src tests
 ```
 
-## Edit the manuscript
-
-The ignored author-local `paper/README.md` owns manuscript build, visual review,
-and candidate-asset export instructions. Those tools do not run inference.
-Public reproduction does not require manuscript sources or LaTeX. The root
-`paper.pdf` remains the submitted paper until an explicit manuscript update.
-
 ## Citation
 
 <!-- BEGIN generated citations -->
-
-Citation metadata matches the [ORCID record](https://orcid.org/0009-0007-2252-8905). [Complete bibliography](https://www.latentpaths.com/citations/all.bib).
 
 ```bibtex
 @inproceedings{bodadepaperbodade2026intervention,
@@ -224,8 +215,6 @@ Citation metadata matches the [ORCID record](https://orcid.org/0009-0007-2252-89
   note = {Accepted spotlight; Non-archival workshop paper}
 }
 ```
-
-[Citation file](https://www.latentpaths.com/citations/paper/bodade2026intervention.bib) · [Work](https://openreview.net/forum?id=iHkXEsYah3)
 
 <!-- END generated citations -->
 
