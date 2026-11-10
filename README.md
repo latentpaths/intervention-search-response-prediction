@@ -211,8 +211,6 @@ Public reproduction does not require manuscript sources or LaTeX. The root
 
 Citation metadata matches the [ORCID record](https://orcid.org/0009-0007-2252-8905). [Complete bibliography](https://www.latentpaths.com/citations/all.bib).
 
-### Paper
-
 ```bibtex
 @inproceedings{bodadepaperbodade2026intervention,
   author = {Bodade, Ayush},
@@ -228,19 +226,6 @@ Citation metadata matches the [ORCID record](https://orcid.org/0009-0007-2252-89
 ```
 
 [Citation file](https://www.latentpaths.com/citations/paper/bodade2026intervention.bib) · [Work](https://openreview.net/forum?id=iHkXEsYah3)
-
-### Software
-
-```bibtex
-@software{bodadeprojectinterventionsearchresponseprediction,
-  author = {Bodade, Ayush},
-  title = {{Intervention Search \& Response Prediction}},
-  url = {https://github.com/latentpaths/intervention-search-response-prediction},
-  note = {Research software. Specify the commit or version used.}
-}
-```
-
-[Citation file](https://www.latentpaths.com/citations/project/intervention-search-response-prediction.bib) · [Work](https://github.com/latentpaths/intervention-search-response-prediction)
 
 <!-- END generated citations -->
 
