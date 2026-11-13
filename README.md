@@ -437,7 +437,8 @@ uv run --locked ruff format --check src tests
   day = {30},
   date = {2026-09-30},
   booktitle = {Agentic AI for Biological Discovery (AgenticLS), NeurIPS 2026 workshop},
-  url = {https://openreview.net/forum?id=iHkXEsYah3},
+  url = {https://doi.org/10.5281/zenodo.24196494},
+  doi = {10.5281/zenodo.24196494},
   note = {Accepted spotlight; Non-archival workshop paper}
 }
 ```

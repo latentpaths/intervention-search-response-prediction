@@ -18,8 +18,9 @@ preferred-citation:
     - family-names: Bodade
       given-names: Ayush
       orcid: https://orcid.org/0009-0007-2252-8905
-  url: https://openreview.net/forum?id=iHkXEsYah3
+  url: https://doi.org/10.5281/zenodo.24196494
   date-released: 2026-09-30
   year: 2026
   collection-title: Agentic AI for Biological Discovery (AgenticLS), NeurIPS 2026 workshop
+  doi: 10.5281/zenodo.24196494
   notes: Accepted spotlight; Non-archival workshop paper
