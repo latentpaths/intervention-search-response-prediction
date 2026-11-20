@@ -119,8 +119,6 @@ def writable_output(path: Path, root: Path | None = None) -> Path:
     for protected in (
         root / name
         for name in (
-            "paper.pdf",
-            "paper",
             "experiments",
             "docs",
             "pyproject.toml",

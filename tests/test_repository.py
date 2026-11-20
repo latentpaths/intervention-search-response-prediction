@@ -125,7 +125,7 @@ with patch('intervention_search_response_prediction.paths.__file__', str(Path.cw
             environment = {key: value for key, value in os.environ.items() if key != "ISRP_ROOT"}
             subprocess.run([sys.executable, "-c", script], cwd=root, env=environment, check=True)
 
-    def test_outputs_cannot_overlap_retained_inputs_or_paper(self):
+    def test_outputs_cannot_overlap_retained_inputs(self):
         for path in (
             ROOT,
             ROOT / "experiments",
@@ -134,8 +134,6 @@ with patch('intervention_search_response_prediction.paths.__file__', str(Path.cw
             ROOT / "data",
             ROOT / "experiments/checksums.json",
             ROOT / "pyproject.toml",
-            ROOT / "paper.pdf",
-            ROOT / "paper/figures",
             ROOT / "docs",
         ):
             with self.subTest(path=path), self.assertRaises(ValueError):
@@ -277,11 +275,12 @@ with patch('intervention_search_response_prediction.paths.__file__', str(Path.cw
         from intervention_search_response_prediction.reproduction import validate
 
         manifest = json.loads((ROOT / "experiments/checksums.json").read_text())
-        paper_hash = sha256(ROOT / "paper.pdf")
         original_open = Path.open
 
         def public_open(path, *args, **kwargs):
-            if path.resolve().is_relative_to(ROOT / "paper"):
+            if path.resolve() == ROOT / "paper.pdf" or path.resolve().is_relative_to(
+                ROOT / "paper"
+            ):
                 raise AssertionError(f"Public validation read the local workspace: {path}")
             return original_open(path, *args, **kwargs)
 
@@ -310,7 +309,6 @@ with patch('intervention_search_response_prediction.paths.__file__', str(Path.cw
                 Path(path).parent,
                 (prepared.responses.parent / "raw", prepared.metadata.parent / "raw"),
             )
-        self.assertEqual(sha256(ROOT / "paper.pdf"), paper_hash)
         for relative, expected in manifest.items():
             self.assertEqual(sha256(ROOT / relative), expected, relative)
 
