@@ -28,9 +28,8 @@ build/
 dist/
 .ipynb_checkpoints/
 
-# Source downloads and author-local manuscript work
+# Source downloads and generated outputs
 /data/*/raw/
-/paper/
 /outputs/
 *.log
 *.aux
